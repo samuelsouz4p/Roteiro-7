@@ -1,0 +1,76 @@
+body {
+    background:linear-gradient(to bottom, #0f3d0f, #1e7e34);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    margin-bottom: 15px;
+    width: 180px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Cartões */
+.card {
+    background-color:#28a745; 
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+/* Botões */
+.btn-success {
+    background-color:#1e7e34;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-success:hover {
+    background-color:#155924;
+}
+
+.btn-danger {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tittle{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-sm {
+    margin-left: 10px;
+    border: none;
+}
+
+/* Estilo para as partidas */
+.partida {
+    background-color: #28a745;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Lista de partidas */
+.list-group {
+    margin-top: 10px;
+}
+
+.list-group-item {
+    background-color:#28a745; 
+    color: white;
+    border-radius: 10px;
+}

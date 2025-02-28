@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1740772756849,
+    "nome": "Jogo dos Miseráveis",
+    "local": "IFPB",
+    "data": "2025-03-14T17:00",
+    "jogadores": [
+      {
+        "nome": "Samuel",
+        "telefone": "(83) 9 91357876"
+      },
+      {
+        "nome": "Léo",
+        "telefone": "(83) 9 91235564"
+      },
+      {
+        "nome": "Lucas",
+        "telefone": "(83) 9 93456901"
+      }
+    ]
+  }
+]

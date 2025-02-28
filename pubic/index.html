@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutStart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Icon.png">
+
+</head>
+<body>
+    <div class="container mt-4">
+        <img class="logo" src="FutStart.png">
+        
+        <!-- Formulário para adicionar partida -->
+        <div class="card p-4 mt-3">
+            <h4>Nova Partida</h4>
+            <form id="formPartida">
+                <div class="mb-3">
+                    <label class="form-label">Título</label>
+                    <input type="text" id="titulo" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Local</label>
+                    <input type="text" id="local" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Data e Hora</label>
+                    <input type="datetime-local" id="dataHora" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-success">Criar Partida</button>
+            </form>
+        </div>
+        
+        <!-- Lista de partidas -->
+        <div class="card p-4 mt-4">
+            <h4>Partidas Agendadas</h4>
+            <ul id="listaPartidas" class="list-group mt-3"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
